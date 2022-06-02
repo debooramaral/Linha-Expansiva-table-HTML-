@@ -1,0 +1,25 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+#wrapper{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    width: 995px;
+}
+#tabelaPrincipal{
+    width: 700px;
+    text-align: left;
+    border-collapse: collapse;
+    color: brown;
+    border: 1px solid crimson;
+}
+#tabelaPrincipal tr:hover{
+    border: 2px solid darkred;
+}
+#tabelaPrincipal .hidden_row{ /*esconde o elemento*/
+    display: none;
+}
